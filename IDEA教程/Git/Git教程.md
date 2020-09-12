@@ -18,7 +18,7 @@ Git 与 SVN 区别点：
 
 从https://git-scm.com/downloads下载GIT，安装全部默认选项，点击下一步即可。安装完成后，再cmd输入git，出现下面内容，表明git安装成功。
 
-![image-20200826184454601](D:\Si_tech\学习资料\学习笔记\git1.png)
+![image-20200826184454601](D:\Si_tech\学习资料\Study-Notes\IDEA教程\Git\git1.png)
 
 ## 3、初始化Git仓储/（仓库）
 
@@ -106,17 +106,17 @@ Git 与 SVN 区别点：
 
   **NOTE：**2020.2版本IDEA，本地成功安装Git后，IDEA会自动选择本地的git.exe。
 
-![](D:\Si_tech\学习资料\学习笔记\git2.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\Git\git2.png)
 
 + 设置GitHub账号，File--->Setting--->Version Control--->GitHub--->Add Account--->Log in with Token；
 
-![](D:\Si_tech\学习资料\学习笔记\git3.png)**NOTE:**点击Generate后，会跳转到GitHub网站，如下图所示：
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\Git\git3.png)**NOTE:**点击Generate后，会跳转到GitHub网站，如下图所示：
 
-![](D:\Si_tech\学习资料\学习笔记\git4.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\Git\git4.png)
 
 默认选择，拉到最下面，点击Generate token，即可生成IDEA对应的令牌，复制到IDEA中的Token中，就完成了GitHub账户的设置。
 
-![](D:\Si_tech\学习资料\学习笔记\git5.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\Git\git5.png)
 
 + IDEA 创建的本地项目push到GitHub上
   +  在GitHub上新建一个仓库；

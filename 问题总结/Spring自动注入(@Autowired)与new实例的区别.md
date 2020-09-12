@@ -55,7 +55,7 @@ public class ApplyChangeCustManagerControllerImplTest {
 
 产生问题：
 
-![](D:\Si_tech\学习资料\学习笔记\Spring自动注入(@Autowired)与new实例的区别.jpg)
+![](D:\Si_tech\学习资料\Study-Notes\问题总结\Spring自动注入(@Autowired)与new实例的区别.jpg)
 
 通过debug模式运行代码发现，必传参数busiInfo和oprInfo中的参数获取正常，但是无法进入业务层，出现空指针异常。将new实例化改为使用Spring注解后，该问题解决，具体修改代码如下：
 

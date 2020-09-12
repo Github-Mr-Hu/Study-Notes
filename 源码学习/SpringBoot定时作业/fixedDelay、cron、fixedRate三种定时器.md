@@ -27,7 +27,7 @@
 
 该方式最简单，该方式的意思是：在上一个任务执行完成之后,间隔3秒(因为`@Scheduled(fixedDelay = 3 * 1000)`)后,执行下一个任务。这种是最容易理解的，所以放在第一个来讲，用一个图来表示如下:
 
-![](D:\Si_tech\学习资料\学习笔记\fixedDelay方式.png)
+![](D:\Si_tech\学习资料\Study-Notes\源码学习\SpringBoot定时作业\fixedDelay方式.png)
 
 可以用输出日志验证上述结论：
 
@@ -71,7 +71,7 @@
 
 用一张图来表示如下:
 
-![](D:\Si_tech\学习资料\学习笔记\cron.png)
+![](D:\Si_tech\学习资料\Study-Notes\源码学习\SpringBoot定时作业\cron.png)
 
 可以用输出日志验证上述结论：
 
@@ -117,7 +117,7 @@ fixedRate方式代码配置如下:
 
 用一张图来表示如下:
 
-![](D:\Si_tech\学习资料\学习笔记\fixedRate.png)
+![](D:\Si_tech\学习资料\Study-Notes\源码学习\SpringBoot定时作业\fixedRate.png)
 
 可以用输出日志验证上述结论：
 

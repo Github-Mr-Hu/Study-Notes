@@ -8,7 +8,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
 - 插件文档：[https](https://www.yuque.com/docs/share/fa77c7b4-c016-4de6-9fa3-58ef25a97948?#) : [//www.yuque.com/docs/share/fa77c7b4-c016-4de6-9fa3-58ef25a97948?#](https://www.yuque.com/docs/share/fa77c7b4-c016-4de6-9fa3-58ef25a97948?#)
 - 插件Github：[https](https://github.com/WangJi92/arthas-idea-plugin) : [//github.com/WangJi92/arthas-idea-plugin](https://github.com/WangJi92/arthas-idea-plugin)
 
-![](D:\Si_tech\学习资料\学习笔记\arthas.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas.png)
 
 #### 安装
 
@@ -22,7 +22,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
 
 下载完成后，将下载的压缩包（.Zip）解压，会看到如下的文件：
 
-![](D:\Si_tech\学习资料\学习笔记\arthas2.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas2.png)
 
 + ##### 运行应用程序
 
@@ -34,7 +34,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
 
   运行后的结果如下：
 
-  <img src="D:\Si_tech\学习资料\学习笔记\arthas3.jpg" style="zoom:50%;" />
+  <img src="D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas3.jpg" style="zoom:50%;" />
 
   **NOTE：运行后不要关闭该窗口**
 
@@ -120,7 +120,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
 
   运行后会出现以下界面;
 
-  <img src="D:\Si_tech\学习资料\学习笔记\arthas4.jpg" style="zoom:50%;" />
+  <img src="D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas4.jpg" style="zoom:50%;" />
 
 输入对应应用程序前的数字，如现在运行的程序为arthas-demo.jar，输入其前面的数字1即可。
 
@@ -141,7 +141,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   dashboard
   ```
 
-  <img src="D:\Si_tech\学习资料\学习笔记\arthas5.png" style="zoom:50%;" />
+  <img src="D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas5.png" style="zoom:50%;" />
 
   ###### 对应列说明
 
@@ -177,7 +177,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   watch demo.MathGame primeFactors returnObj
   ```
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas6.png)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas6.png)
 
 + ##### 查看方法调用路径、耗时
 
@@ -187,7 +187,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   trace demo.MathGame primeFactors
   ```
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas7.png)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas7.png)
 
 + ##### 反编译代码
 
@@ -197,7 +197,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   jad demo.MathGame
   ```
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas8.png)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas8.png)
 
 + ##### 查看线程状态，CPU占比等
 
@@ -205,7 +205,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
 
 ​						thread -n 1 会同时打印线程CPU占比、线程信息等。
 
-![](D:\Si_tech\学习资料\学习笔记\arthas9.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas9.png)
 
 + ##### 查找JVM中已经加载的类
 
@@ -218,7 +218,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   sc demo.MathGame
   ```
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas10.jpg)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas10.jpg)
 
 + ##### 查看具体方法的调用堆栈
 
@@ -228,7 +228,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   stack demo.MathGame primeFactors
   ```
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas11.jpg)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas11.jpg)
 
 + ##### 类、方法执行监控
 
@@ -258,7 +258,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   | rt        | 平均RT                     |
   | fail-rate | 失败率                     |
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas12.jpg)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas12.jpg)
 
 + ##### 查看类加载器
 
@@ -270,7 +270,7 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
   classloader
   ```
 
-  ![](D:\Si_tech\学习资料\学习笔记\arthas13.jpg)
+  ![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas13.jpg)
 
 + #####  Web Console
 
@@ -364,10 +364,10 @@ Arthas 的功能点非常的多（详见下方大图），这里就不一一的�
 profiler list
 ```
 
-![](D:\Si_tech\学习资料\学习笔记\arthas14.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas14.png)
 
 结果如下:
 
-![](D:\Si_tech\学习资料\学习笔记\arthas15.png)
+![](D:\Si_tech\学习资料\Study-Notes\IDEA教程\ARrthas\arthas15.png)
 
 后续持续添加其它功能。。。
