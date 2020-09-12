@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry
+            location="D:\Si_tech\Tools\Spring Tool\jar\mysql-connector-java-5.1.45-bin.jar"/>
+    <context id="Mysql" targetRuntime="MyBatis3" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://172.18.233.159:8066/ecopgh_dev"
+                        userId="ecopgh_dev"
+                        password="ecopgh_2020">
+        </jdbcConnection>
+
+        <javaModelGenerator targetPackage="com.sitech.cbn.cust.po" targetProject="src/main/java"/>
+
+        <sqlMapGenerator targetPackage="mysql-mybatismapper" targetProject="src/main/resources"/>
+
+        <javaClientGenerator targetPackage="com.sitech.cbn.cust.mapper" targetProject="src/main/java"
+                             type="XMLMAPPER"/>
+        <table tableName="bs_bulidinglist_info" enableCountByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"></table>
+
+    </context>
+</generatorConfiguration>
